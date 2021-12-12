@@ -8,6 +8,7 @@ router.post('/messages', messagesController.createMessages)
 
 // property is inside of a fetch in the main js 
 router.put('/messages/likeMessage', messagesController.likeMessage)
+router.put('/messages/dislikeMessage', messagesController.dislikeMessage)
 // property is inside the main js 
 router.delete('/messages/deleteMessage', messagesController.deleteMessage)
 

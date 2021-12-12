@@ -8,15 +8,11 @@ const MessageSchema = new mongoose.Schema({
    name: {
     type: String,
     required: true,
-},
+  },
   thumbUp: {
     type: Number,
     required: true,
   },
-  thumbDown: {
-    type: Number,
-    required: true,
-  }
  }
  )
 
